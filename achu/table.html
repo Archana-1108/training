@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table class="table.table.striped
+    <tr class="bg.info">
+        <th>name</th>
+        <th>age</th>
+        <th>birthday</th>
+        </tr>    
+        <tbody id="mytable"></tbody>
+        </table>
+        <script>
+            varArray=
+           ('name:achu','age:23','birthday:11.08.2001')
+            
+            {
+            ('name:abi','age:24','birthday:15.11.2001')
+            }
+            {
+            ('name:anu','age:28','birthday:20.08.2024')
+            }
+            {
+            ('name:banu','age:26','birthday:0.12.2022')
+            }
+            bulidtable(myarray)
+            function bulidtable(data){
+                var table=document.getElementById('mytable')
+                for(var i=0; i<data.length;i++){
+                    var row=<tr>
+                        <td>$(data[i]:name)</td>
+                        <td>$(data[i]:age)</td>
+                        <td>$(data[i]:birthday)</td>
+                        </tr>
+                        table.innerHTML+=row
+                }           }
+
+        </script>
+
+
+</body>
+
+</html>

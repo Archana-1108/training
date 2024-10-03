@@ -1,0 +1,61 @@
+
+
+/* .:after{
+  box-sizing: border-box;
+}
+.:before{
+    position: relative;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} */
+body{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.box{
+    position: relative;
+    background-color:firebrick;
+    width: 768px;
+    background-color:green;
+    padding:20px;
+    border-radius:20px;
+
+}
+.h4{
+    text-align: center;
+    margin-bottom:20px;
+    font-size:1.2rem;
+    text-transform:uppercase;
+
+}
+.box date-picker{
+    position: relative;
+    display: flex;
+    align-items:center;
+
+}
+.box.date-picker input{
+    margin:10px;
+    border: 0;
+    padding: 5rem;
+    border-radius: 10px;
+    transition:500ms ease;
+}
+.box.box.date-picker input:focus{
+    box-shadow: 0;
+}
+.box.date-picker span{
+    display:inline-block;
+    text-transform: uppercase;
+}
+.box.date-picker span{
+    margin:left;
+
+}
